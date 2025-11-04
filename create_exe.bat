@@ -1,0 +1,60 @@
+SET CurrentDir=%~dp0
+
+pyinstaller ^
+    --noconfirm ^
+    --onedir ^
+    --icon "%CurrentDir%\images\CWC.ico" ^
+    --log-level "WARN" ^
+    --hidden-import "babel.numbers" ^
+    --add-data "%CurrentDir%\images\*.png;images/" ^
+    --add-data "%CurrentDir%\images\*.cur;images/" ^
+    --add-data "%CurrentDir%\images\*.ico;images/" ^
+    --add-data "%CurrentDir%\images\*.jpg;images/" ^
+    --add-data "%CurrentDir%\images\cwc\*;images/cwc/" ^
+    --add-data "%CurrentDir%\src\about.py;." ^
+    --add-data "%CurrentDir%\src\app_thread_executor.py;." ^
+    --add-data "%CurrentDir%\src\black_cell_handler.py;." ^
+    --add-data "%CurrentDir%\src\cell_base.py;." ^
+    --add-data "%CurrentDir%\src\cell_entry.py;." ^
+    --add-data "%CurrentDir%\src\cell_handler.py;." ^
+    --add-data "%CurrentDir%\src\cell_label.py;." ^
+    --add-data "%CurrentDir%\src\crossword.py;." ^
+    --add-data "%CurrentDir%\src\crossword_filler.py;." ^
+    --add-data "%CurrentDir%\src\cwc_button.py;." ^
+    --add-data "%CurrentDir%\src\cwc_globals.py;." ^
+    --add-data "%CurrentDir%\src\cwc_matrix.py;." ^
+    --add-data "%CurrentDir%\src\cwc_style.py;." ^
+    --add-data "%CurrentDir%\src\cwc_templates.py;." ^
+    --add-data "%CurrentDir%\src\cwc_toplevel.py;." ^
+    --add-data "%CurrentDir%\src\cwc_toplevel_tk.py;." ^
+    --add-data "%CurrentDir%\src\db_connection.py;." ^
+    --add-data "%CurrentDir%\src\definition_buttons_frame.py;." ^
+    --add-data "%CurrentDir%\src\definition_element.py;." ^
+    --add-data "%CurrentDir%\src\definitions.py;." ^
+    --add-data "%CurrentDir%\src\dimensions.py;." ^
+    --add-data "%CurrentDir%\src\export_launcher.py;." ^
+    --add-data "%CurrentDir%\src\highlighter.py;." ^
+    --add-data "%CurrentDir%\src\input_panel.py;." ^
+    --add-data "%CurrentDir%\src\main_buttons.py;." ^
+    --add-data "%CurrentDir%\src\menu_frame.py;." ^
+    --add-data "%CurrentDir%\src\popup_menu.py;." ^
+    --add-data "%CurrentDir%\src\project.py;." ^
+    --add-data "%CurrentDir%\src\queries.py;." ^
+    --add-data "%CurrentDir%\src\settings.py;." ^
+    --add-data "%CurrentDir%\src\splash_screen.py;." ^
+    --add-data "%CurrentDir%\src\sql_search_frame.py;." ^
+    --add-data "%CurrentDir%\src\template_generator.py;." ^
+    --add-data "%CurrentDir%\src\translations.py;." ^
+    --add-data "%CurrentDir%\src\volatile_message.py;." ^
+    --add-data "%CurrentDir%\src\word.py;." ^
+    --add-data "%CurrentDir%\src\word_editor.py;." ^
+    --add-data "%CurrentDir%\src\zipper.py;." ^
+    --add-data "%CurrentDir%\db\it\cwc.db;db/it/" ^
+    --add-data "%CurrentDir%\config\cwc_settings.json;config/" ^
+    --add-data "%CurrentDir%\config\search_engines.csv;config/" ^
+    --add-data "%CurrentDir%\config\translatable_text.json;config/" ^
+    --add-data "%CurrentDir%\plugins\pdf_exporter.py;plugins/" ^
+    --add-data "%CurrentDir%\templates\templates.json;templates/" ^
+    --add-data "%CurrentDir%\customtkinter;customtkinter/" ^
+    --add-data "%CurrentDir%\TKinterModernThemes;TKinterModernThemes/" ^
+    "%CurrentDir%\src\cwc.py"

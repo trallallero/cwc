@@ -1,0 +1,16 @@
+name;url
+Ask.com;https://www.ask.com/web?q="{word}"
+Brave;https://search.brave.com/search?q="{word}"
+Dogpile;https://www.dogpile.com/serp?q="{word}"
+DuckDuckGo;https://duckduckgo.com/?t=h_&q="{word}"&ia=web
+Ecosia;https://www.ecosia.org/search?method=index&q="{word}"
+Elasticsearch;https://search.elastic.co/?q="{word}"
+Google;https://www.google.com/search?q="{word}"
+Lycos;https://search.lycos.it/web/?q="{word}"
+Bing;https://www.bing.com/search?q="{word}"
+Mojeek;https://www.mojeek.com/search?q="{word}"
+Presearch;https://presearch.com/search?q="{word}"
+Qwant;https://www.qwant.com/?q="{word}"&t=web
+Swisscows;https://swisscows.com/en/web?query="{word}"
+Yahoo!;https://search.yahoo.com/search?p="{word}"
+Yandex;https://yandex.com/search/?text="{word}"

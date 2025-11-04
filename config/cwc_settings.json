@@ -1,0 +1,32 @@
+{
+   "current_state": "AS_CW_FILLED",
+   "cw": {
+      "dim": [
+         "5",
+         "5"
+      ],
+      "black_cells": "random",
+      "random_percent": 8,
+      "font": 14,
+      "max_word_len": 10
+   },
+   "definitions": {
+      "hide_sel": true,
+      "auto_sel": true,
+      "search_engine": "Brave",
+      "add_words": "italiano"
+   },
+   "appearance": {
+      "theme": "park",
+      "mode": "dark",
+      "language": "en",
+      "arch_language": "it"
+   },
+   "word_editing": {
+      "skip_black": true,
+      "auto_move": true
+   },
+   "exporter": {
+      "type": ""
+   }
+}

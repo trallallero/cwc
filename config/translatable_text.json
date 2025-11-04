@@ -1,0 +1,382 @@
+{
+    "test" : [
+        {"it" : "Test_it"},
+        {"en" : "Test_en"}
+    ],
+    "find_word" : [
+        {"it" : "Cerca parola"},
+        {"en" : "Find word"}
+    ],
+    "del_word" : [
+        {"it" : "Cancella parola"},
+        {"en" : "Delete word"}
+    ],
+    "del_find_word" : [
+        {"it" : "Cancella parola e cerca"},
+        {"en" : "Delete and find word"}
+    ],
+    "del_exclude_word_once" : [
+        {"it" : "Cancella ed escludi parola (1 volta)"},
+        {"en" : "Delete and exclude word (once)"}
+    ],
+    "del_exclude_word_session" : [
+        {"it" : "Cancella ed escludi parola (sessione)"},
+        {"en" : "Delete and exclude word (session)"}
+    ],
+    "del_exclude_word_always" : [
+        {"it" : "Cancella ed escludi parola (sempre)"},
+        {"en" : "Delete and exclude word (always)"}
+    ],
+    "del_other_words" : [
+        {"it" : "Cancella le altre parole"},
+        {"en" : "Delete other words"}
+    ],
+    "del_not_used_keys" : [
+        {"it" : "Cancella lettere non usate da altre parole"},
+        {"en" : "Delete chars not used by other words"}
+    ],
+    "del_find_not_used_keys" : [
+        {"it" : "Cancella lettere non usate da altre parole e cerca parola"},
+        {"en" : "Delete chars not used by other words and find word"}
+    ],
+    "del_char" : [
+        {"it" : "Cancella carattere"},
+        {"en" : "Delete char"}
+    ],
+    "handle_word" : [
+        {"it" : "Gestisci parola"},
+        {"en" : "Handle word"}
+    ],
+    "auto_sel_def" : [
+        {"it" : "Sto selezionando le definizioni, si prega di attendere..."},
+        {"en" : "Selecting definitions, please wait..."}
+    ],
+    "auto_show_def" : [
+        {"it" : "Sto mostrando le definizioni, si prega di attendere..."},
+        {"en" : "Showing definitions, please wait..."}
+    ],
+    "auto_hide_def" : [
+        {"it" : "Sto nascondendo le definizioni, si prega di attendere..."},
+        {"en" : "Hiding definitions, please wait..."}
+    ],
+    "templates" : [
+        {"it" : "Modelli"},
+        {"en" : "Templates"}
+    ],
+    "black_cells" : [
+        {"it" : "Celle nere"},
+        {"en" : "Black cells"}
+    ],
+    "manual" : [
+        {"it" : "Manuale"},
+        {"en" : "Manual"}
+    ],
+    "template" : [
+        {"it" : "Modello"},
+        {"en" : "Template"}
+    ],
+    "random" : [
+        {"it" : "Casuale"},
+        {"en" : "Random"}
+    ],
+    "add_def_for" : [
+        {"it" : "Aggiungi definizioni per: "},
+        {"en" : "Add definitions for: "}
+    ],
+    "choose_word" : [
+        {"it" : "Scegli la parola"},
+        {"en" : "Choose a word"}
+    ],
+    "word_not_found" : [
+        {"it" : "Nessuna parola trovata"},
+        {"en" : "No words were found"}
+    ],
+    "hide_def" : [
+        {"it" : "Nascondi completate"},
+        {"en" : "Hide completed"}
+    ],
+    "auto_sel" : [
+        {"it" : "Seleziona automaticamente"},
+        {"en" : "Auto select"}
+    ],
+    "word_handle" : [
+        {"it" : "Gestione parola"},
+        {"en" : "Word handling"}
+    ],
+    "words_search" : [
+        {"it" : "Ricerche con parola"},
+        {"en" : "Searches with word"}
+    ],
+    "archive" : [
+        {"it" : "Archivio"},
+        {"en" : "Archive"}
+    ],
+    "add_arch_word" : [
+        {"it" : "Aggiungi all'archivio"},
+        {"en" : "Add to archive"}
+    ],
+    "del_arch_word" : [
+        {"it" : "Rimuovi dall'archivio"},
+        {"en" : "Remove from archive"}
+    ],
+    "add" : [
+        {"it" : "Aggiungi"},
+        {"en" : "Add"}
+    ],
+    "del" : [
+        {"it" : "Rimuovi"},
+        {"en" : "Remove"}
+    ],
+    "edit" : [
+        {"it" : "Modifica"},
+        {"en" : "Edit"}
+    ],
+    "word" : [
+        {"it" : "Parola"},
+        {"en" : "Word"}
+    ],
+    "ok" : [
+        {"it" : "OK"},
+        {"en" : "OK"}
+    ],
+    "create" : [
+        {"it" : "Crea"},
+        {"en" : "Create"}
+    ],
+    "cancel" : [
+        {"it" : "Annulla"},
+        {"en" : "Cancel"}
+    ],
+    "dimensions" : [
+        {"it" : "Dimensioni"},
+        {"en" : "Dimensions"}
+    ],
+    "text_dimensions" : [
+        {"it" : "Dimensioni testo"},
+        {"en" : "Font size"}
+    ],
+    "compile" : [
+        {"it" : "Compila"},
+        {"en" : "Compile"}
+    ],
+    "definition" : [
+        {"it" : "Definizione"},
+        {"en" : "Definition"}
+    ],
+    "definitions" : [
+        {"it" : "Definizioni"},
+        {"en" : "Definitions"}
+    ],
+    "matrix" : [
+        {"it" : "Matrice"},
+        {"en" : "Matrix"}
+    ],
+    "save" : [
+        {"it" : "Salva"},
+        {"en" : "Save"}
+    ],
+    "open" : [
+        {"it" : "Apri"},
+        {"en" : "Open"}
+    ],
+    "close" : [
+        {"it" : "Chiudi"},
+        {"en" : "Close"}
+    ],
+    "paste" : [
+        {"it" : "Incolla"},
+        {"en" : "Paste"}
+    ],
+    "settings" : [
+        {"it" : "Impostazioni"},
+        {"en" : "Settings"}
+    ],
+    "options" : [
+        {"it" : "Opzioni"},
+        {"en" : "Settings"}
+    ],
+    "menu" : [
+        {"it" : "Menu"},
+        {"en" : "Menu"}
+    ],
+    "horizontal" : [
+        {"it" : "Orizzontali"},
+        {"en" : "Horizontal"}
+    ],
+    "vertical" : [
+        {"it" : "Verticali"},
+        {"en" : "Vertical"}
+    ],
+    "cw" : [
+        {"it" : "Parole crociate"},
+        {"en" : "Crossword"}
+    ],
+    "word_editing" : [
+        {"it" : "Inserimento manuale parole"},
+        {"en" : "Manual word editing"}
+    ],
+    "skip_black" : [
+        {"it" : "Salta celle nere"},
+        {"en" : "Skip black cells"}
+    ],
+    "auto_move" : [
+        {"it" : "Sposta posizione automaticamente"},
+        {"en" : "Auto move position"}
+    ],
+    "settings_saved" : [
+        {"it" : "Impostazioni salvate"},
+        {"en" : "Settings saved"}
+    ],
+    "compiling" : [
+        {"it" : "Sto cercando le parole, si prega di attendere..."},
+        {"en" : "Compiling the matrix, please wait..."}
+    ],
+    "clear" : [
+        {"it" : "Pulisci"},
+        {"en" : "Clear"}
+    ],
+    "copy" : [
+        {"it" : "Copia"},
+        {"en" : "Copy"}
+    ],
+    "export" : [
+        {"it" : "Esporta"},
+        {"en" : "Export"}
+    ],
+    "style" : [
+        {"it" : "Stile"},
+        {"en" : "Style"}
+    ],
+    "appearance" : [
+        {"it" : "Aspetto"},
+        {"en" : "Appearance"}
+    ],
+    "modality" : [
+        {"it" : "Modalità"},
+        {"en" : "Mode"}
+    ],
+    "find_defs_online" : [
+        {"it" : "Motore ricerca online"},
+        {"en" : "Online search engine"}
+    ],
+    "format" : [
+        {"it" : "Formato"},
+        {"en" : "Type"}
+    ],
+    "add_text_to_search" : [
+        {"it" : "Aggiungi testo alla ricerca online"},
+        {"en" : "Add text to online search"}
+    ],
+    "max_word_length" : [
+        {"it" : "Lunghezza massima parola"},
+        {"en" : "Max word length"}
+    ],
+    "filling_words" : [
+        {"it" : "Sto inserendo le parole, si prega di attendere..."},
+        {"en" : "Inserting words, please wait..."}
+    ],
+    "creating_cw" : [
+        {"it" : "Sto creando la matrice, si prega di attendere..."},
+        {"en" : "Creating crossword, please wait..."}
+    ],
+    "finalizing_cw" : [
+        {"it" : "Sto finalizzando, si prega di attendere..."},
+        {"en" : "Finalizing crossword, please wait..."}
+    ],
+    "clearing_cw" : [
+        {"it" : "Sto pulendo la matrice, si prega di attendere..."},
+        {"en" : "Clearing crossword, please wait..."}
+    ],
+    "setting_definitions" : [
+        {"it" : "Sto aggiungendo le definizioni, si prega di attendere..."},
+        {"en" : "Adding definitions, please wait..."}
+    ],
+    "finalize_cw" : [
+        {"it" : "Finalizza"},
+        {"en" : "Finalize"}
+    ],
+    "select_file" : [
+        {"it" : "Seleziona file"},
+        {"en" : "Choose file"}
+    ],
+    "exporting" : [
+        {"it" : "Sto esportando, si prega di attendere..."},
+        {"en" : "Exporting, please wait..."}
+    ],
+    "exported" : [
+        {"it" : "Esportato"},
+        {"en" : "Exported"}
+    ],
+    "sql_search_title" : [
+        {"it" : "Cerca parole"},
+        {"en" : "Search words"}
+    ],
+    "search_type" : [
+        {"it" : "Tipo di ricerca"},
+        {"en" : "Search type"}
+    ],
+    "results" : [
+        {"it" : "Risultati"},
+        {"en" : "Results"}
+    ],
+    "ends_with" : [
+        {"it" : "Finisce con"},
+        {"en" : "Ends with"}
+    ],
+    "starts_with" : [
+        {"it" : "Inizia con"},
+        {"en" : "Starts with"}
+    ],
+    "contains" : [
+        {"it" : "Contiene"},
+        {"en" : "Contains"}
+    ],
+    "anagrams" : [
+        {"it" : "Anagrammi"},
+        {"en" : "Anagrams"}
+    ],
+    "all_chars" : [
+        {"it" : "Contiene tutti i caratteri"},
+        {"en" : "Contains all chars"}
+    ],
+    "language" : [
+        {"it" : "Lingua"},
+        {"en" : "Language"}
+    ],
+    "resize" : [
+        {"it" : "Ridimensiona"},
+        {"en" : "Resize"}
+    ],
+    "database_language" : [
+        {"it" : "Lingua archivio"},
+        {"en" : "Archive language"}
+    ],
+    "preview" : [
+        {"it" : "Anteprima"},
+        {"en" : "Preview"}
+    ],
+    "margin" : [
+        {"it" : "Margine"},
+        {"en" : "Margin"}
+    ],
+    "about" : [
+        {"it" : "Info"},
+        {"en" : "About"}
+    ],
+    "thanks_to" : [
+        {"it" : "Si ringrazia:"},
+        {"en" : "Thanks to:"}
+    ],
+    "delete" : [
+        {"it" : "Elimina"},
+        {"en" : "Remove"}
+    ],
+    "apply" : [
+        {"it" : "Applica"},
+        {"en" : "Apply"}
+    ],
+    "tt_save_pr" : [
+        {"it" : "Salva il progetto"},
+        {"en" : "Save the project"}
+    ]
+}
